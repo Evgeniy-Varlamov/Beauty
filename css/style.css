@@ -399,9 +399,7 @@ footer {
 .menu__btn {
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 20px;
-  left: 20px;
+  position: relative;
 
   width: 26px;
   height: 26px;
@@ -584,6 +582,16 @@ footer {
 
   .hamburger-menu {
     display: block;
+  }
+
+  .wrapper-top {
+    position: fixed;
+    background-color: #efefef;
+    width: 100%;
+  }
+
+  header .bg-white {
+    padding-top: 79px;
   }
 
   .menu-header .nav {
